@@ -19,6 +19,6 @@ output/
 *.log
 *.hash
 *.txt
-!requirements.txt
+!requirements*.txt
 .DS_Store
 Thumbs.db
