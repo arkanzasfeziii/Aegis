@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "aegis-framework"
-version = "1.0.0"
+version = "2.0.0"
 description = "Offensive network attack framework for authorized red team engagements"
 readme = "README.md"
 license = {text = "MIT"}
@@ -39,7 +39,7 @@ Repository = "https://github.com/arkanzasfeziii/Aegis"
 Issues = "https://github.com/arkanzasfeziii/Aegis/issues"
 
 [project.scripts]
-aegis = "aegis:main"
+aegis = "aegis.cli:main"
 
 [tool.ruff]
 target-version = "py310"
